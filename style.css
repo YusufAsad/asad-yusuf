@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsterrat:ital,wght@0,300;1,300;1,600&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin-right: 0 auto;
+	padding: 0 auto;
+}
+
+body{
+	font-family: 'Monsterrat', sans-serif;
+	margin: 0;
+	background-color: #9a8fb5;
+	height: 100%;
+	position: relative;
+}
+
+main, footer{
+	margin-left: 10px;
+}
+main{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+main img{
+	padding-top: 20px;
+	align-content: center;
+	margin-left: 200px;
+}
+
+main h2{
+	font-size: 50px;
+}
+
+main p, main ul{
+	font-size: 20px;
+}
+
+main p, main ul, main h2{
+	margin-left: 100px;
+}
+
+footer{
+	text-align: center;
+	color: #4f53a2;
+}
+
+header{
+	background-color: #b8bbf2;
+	padding: 15px;
+	width: 100%;
+}
+
+header h1{
+	text-align: center;
+}
+
+nav{
+	font-variant: small-caps;
+	background: rgb(169,126,226);
+	background: linear-gradient(90deg, rgba(169,126,226,1) 0%, rgba(54,15,85,1) 50%, rgba(136,79,162,1) 100%);
+	font-size: 20px;
+	padding: 5px;
+	width: 100%;
+}
+
+nav ul{
+	font-size: 20px;
+	text-align: center;
+	padding-left: 0px;
+	padding-top: 10px;
+}
+
+main img{
+	padding-right: 500px;
+}
+
+nav ul{
+	list-style-type: none;
+}
+nav li{
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: #d65a7f;
+}
+nav a:visited{
+	color: #c922e3;
+}
+nav a:hover{
+	color: #edaa45; /*orange*/
+}
+nav a:active{
+	color: black;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+td, th{
+	border: 3px solid #005a75;
+	padding: 5px;
+}
+
+th{
+	background-color: #005a75;
+	color: white;
+}
+
+td{
+	background-color: #88b1bd;
+}
+
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+}
+
+#submit{
+	display: block;
+	background-color: #005a75;
+	color: white;
+}
+
+input{
+	border-radius: 10px;
+	background-color: #005a75;
+	color: white;
+	padding: 3px;
+}
+
+fieldset{
+	padding: 10px;
+	border: 3px solid #005a75;
+	background-color: #88b1bd;
+	border-radius: 5px;
+	max-width: 30%;
+}
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}
+}
+
+.row {
+	max-width: 100%;
+}
+
+.logo {
+	margin: 0 auto;
+	display:block;
+}
